@@ -1,6 +1,10 @@
-#include <iostream>
+#include "engine.h"
 
 int main() {
-    std::cout << "Welcome to NEX Engine!" << std::endl;
+    Engine engine;
+    if (engine.Initialize()) {
+        engine.Run();
+    }
+    engine.Shutdown();
     return 0;
 }
