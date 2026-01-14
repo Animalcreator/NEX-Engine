@@ -1,0 +1,19 @@
+# MacOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# C++
+*.o
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+
+# Build/
+*.build
+*.cmakebuild
+
